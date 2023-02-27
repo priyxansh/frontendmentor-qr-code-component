@@ -35,6 +35,8 @@ body {
     align-items: center;
     gap: var(--gap);
     margin-inline: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 36px 0px;
 }
 .card-qr img {
     width: 100%;
@@ -49,19 +51,13 @@ body {
 }
 .card-text h1 {
     color: var(--dark-blue);
-    font-size: 1.7rem;
-
     font-size: clamp(1.3rem, 6.5vw, 1.7rem);
-
     width: 90%;
 }
 .card-text p {
     color: var(--grayish-blue);
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.7rem;
     width: 87%;
     line-height: 1.4;
-    font-size: 1.09375rem;
-
     font-size: clamp(0.875rem, 4.5vw, 1.09375rem);
-
 }
